@@ -14,5 +14,8 @@
   </defs>
   <rect x="4" y="4" width="56" height="56" rx="18" fill="url(#bg)" />
   <path d="M16 15c9-6 25-6 34 0" fill="none" stroke="url(#shine)" stroke-linecap="round" stroke-width="4" />
-  <path d="M14 20h8l6 23 4-13 4 13 6-23h8l-10 30h-7l-5-14-5 14h-7z" fill="#fff7ef" />
+  <path
+    d="M16 18l6 28h5l5-16 5 16h5l6-28h-6l-3 18-5-18h-4l-5 18-3-18z"
+    fill="#fff7ef"
+  />
 </svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title>Wandar.se favicon</title>
+  <desc>A warm gradient tile with a bold letter W.</desc>
+  <defs>
+    <linearGradient id="bg" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9c56" />
+      <stop offset="0.5" stop-color="#d56a1a" />
+      <stop offset="1" stop-color="#429864" />
+    </linearGradient>
+    <linearGradient id="shine" x1="16" y1="12" x2="46" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff7ef" stop-opacity="0.95" />
+      <stop offset="1" stop-color="#fff7ef" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="18" fill="url(#bg)" />
+  <path d="M16 15c9-6 25-6 34 0" fill="none" stroke="url(#shine)" stroke-linecap="round" stroke-width="4" />
+  <path d="M14 20h8l6 23 4-13 4 13 6-23h8l-10 30h-7l-5-14-5 14h-7z" fill="#fff7ef" />
+</svg>

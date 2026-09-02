@@ -1,36 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="light dark" />
+    <meta name="color-scheme" content="light" />
     <title>Wandar.se</title>
-    <meta name="description"
-        content="Wandar.se is a simple showcase of side projects, experiments, and things worth clicking into." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
-        rel="stylesheet" />
+    <meta name="description" content="Wandar.se is a simple showcase of side projects, experiments, and things worth clicking into." />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
     <div class="page-shell">
         <header class="hero">
-            <div class="hero-copy">
-                <p class="eyebrow">Wandar.se</p>
-                <h1>Side projects or whatever.</h1>
-                <p class="intro">
-                    Wandar.se is a simple index of products, experiments, and internet side work.
-                    Nothing overloaded, just a way to find the things I build.
-                </p>
+            <div class="masthead">
+                <a class="wordmark" href="/" aria-label="Wandar.se home">Wandar.se</a>
+                <p>Small builds, live links, brief context.</p>
             </div>
-            <div class="hero-note" aria-label="Site summary">
-                <p class="hero-note-label">Format</p>
-                <p class="hero-note-value">Small builds, live links, brief context.</p>
+            <div class="hero-copy">
+                <h1>Side projects<br /><em>or whatever.</em></h1>
+                <p class="intro">Wandar.se is a simple index of products, experiments, and internet side work. Nothing overloaded, just a way to find the things I build.</p>
             </div>
         </header>
 
@@ -40,177 +28,79 @@
                     <h2 id="projects-title">Projects</h2>
                     <p>A few things worth clicking into.</p>
                 </div>
-
-                <ul class="project-list">
+                <ol class="project-list">
                     <li class="project-card">
                         <a class="project-link" href="https://wecode.se" target="_blank" rel="noreferrer">
                             <span class="project-index" aria-hidden="true">01</span>
-                            <span class="project-body">
-                                <span class="project-title">Wecode.se</span>
-                                <span class="project-description">
-                                    Me and my three friends' software consultancy.
-                                </span>
-                            </span>
-                            <span class="project-arrow" aria-hidden="true">Open</span>
+                            <span class="project-title">Wecode.se</span>
+                            <span class="project-description">Me and my three friends' software consultancy.</span>
+                            <span class="project-arrow" aria-hidden="true">↗</span>
                         </a>
                     </li>
-
                     <li class="project-card">
                         <a class="project-link" href="https://mightiestgame.com" target="_blank" rel="noreferrer">
                             <span class="project-index" aria-hidden="true">02</span>
-                            <span class="project-body">
-                                <span class="project-title">MightiestGame.com</span>
-                                <span class="project-description">
-                                    A fun location-based trading card game built around one-on-one battles.
-                                </span>
-                            </span>
-                            <span class="project-arrow" aria-hidden="true">Open</span>
+                            <span class="project-title">MightiestGame.com</span>
+                            <span class="project-description">A fun location-based trading card game built around one-on-one battles.</span>
+                            <span class="project-arrow" aria-hidden="true">↗</span>
                         </a>
                     </li>
-
                     <li class="project-card">
                         <a class="project-link" href="https://superettanfantasy.se" target="_blank" rel="noreferrer">
                             <span class="project-index" aria-hidden="true">03</span>
-                            <span class="project-body">
-                                <span class="project-title">Superettanfantasy.se</span>
-                                <span class="project-description">
-                                    Superettan deserves its own fantasy game, so I built one.
-                                </span>
-                            </span>
-                            <span class="project-arrow" aria-hidden="true">Open</span>
+                            <span class="project-title">Superettanfantasy.se</span>
+                            <span class="project-description">Superettan deserves its own fantasy game, so I built one.</span>
+                            <span class="project-arrow" aria-hidden="true">↗</span>
                         </a>
                     </li>
-
                     <li class="project-card">
-                        <a class="project-link"
-                            href="https://chromewebstore.google.com/detail/allsvenskan-fantasy-tool/fhckfggghdckjamoddjdmcoafhjeoang"
-                            target="_blank" rel="noreferrer">
+                        <a class="project-link" href="https://chromewebstore.google.com/detail/allsvenskan-fantasy-tool/fhckfggghdckjamoddjdmcoafhjeoang" target="_blank" rel="noreferrer">
                             <span class="project-index" aria-hidden="true">04</span>
-                            <span class="project-body">
-                                <span class="project-title">Allsvenskan Fantasy Tool</span>
-                                <span class="project-description">
-                                    A Chrome extension with better real-time data for your mini leagues.
-                                </span>
-                            </span>
-                            <span class="project-arrow" aria-hidden="true">Open</span>
+                            <span class="project-title">Allsvenskan Fantasy Tool</span>
+                            <span class="project-description">A Chrome extension with better real-time data for your mini leagues.</span>
+                            <span class="project-arrow" aria-hidden="true">↗</span>
                         </a>
                     </li>
-
                     <li class="project-card">
                         <a class="project-link" href="https://linusfilmer.se" target="_blank" rel="noreferrer">
                             <span class="project-index" aria-hidden="true">05</span>
-                            <span class="project-body">
-                                <span class="project-title">Linusfilmer.se</span>
-                                <span class="project-description">
-                                    A random movie selector with a niche selection.
-                                </span>
-                            </span>
-                            <span class="project-arrow" aria-hidden="true">Open</span>
+                            <span class="project-title">Linusfilmer.se</span>
+                            <span class="project-description">A random movie selector with a niche selection.</span>
+                            <span class="project-arrow" aria-hidden="true">↗</span>
                         </a>
                     </li>
-
                     <li class="project-card">
                         <a class="project-link" href="https://wandarskalan.se" target="_blank" rel="noreferrer">
                             <span class="project-index" aria-hidden="true">06</span>
-                            <span class="project-body">
-                                <span class="project-title">wandarskalan.se</span>
-                                <span class="project-description">
-                                    A new temperature unit for feels-like temperatures.
-                                </span>
-                            </span>
-                            <span class="project-arrow" aria-hidden="true">Open</span>
+                            <span class="project-title">wandarskalan.se</span>
+                            <span class="project-description">A new temperature unit for feels-like temperatures.</span>
+                            <span class="project-arrow" aria-hidden="true">↗</span>
                         </a>
                     </li>
-
                     <li class="project-card">
                         <a class="project-link" href="https://fantasydocs.chat" target="_blank" rel="noreferrer">
                             <span class="project-index" aria-hidden="true">07</span>
-                            <span class="project-body">
-                                <span class="project-title">fantasydocs.chat</span>
-                                <span class="project-description">
-                                    An AI-driven chatbot for the rules of Allsvenskan Fantasy.
-                                </span>
-                            </span>
-                            <span class="project-arrow" aria-hidden="true">Open</span>
+                            <span class="project-title">fantasydocs.chat</span>
+                            <span class="project-description">An AI-driven chatbot for the rules of Allsvenskan Fantasy.</span>
+                            <span class="project-arrow" aria-hidden="true">↗</span>
                         </a>
                     </li>
-
                     <li class="project-card">
                         <a class="project-link" href="https://whatsnotmyip.com" target="_blank" rel="noreferrer">
                             <span class="project-index" aria-hidden="true">08</span>
-                            <span class="project-body">
-                                <span class="project-title">whatsnotmyip.com</span>
-                                <span class="project-description">
-                                    Tells you your IP address. Spoiler: it's not your IP address. A completely useless and deeply satisfying little tool.
-                                </span>
-                            </span>
-                            <span class="project-arrow" aria-hidden="true">Open</span>
+                            <span class="project-title">whatsnotmyip.com</span>
+                            <span class="project-description">Tells you your IP address. Spoiler: it's not your IP address. A completely useless and deeply satisfying little tool.</span>
+                            <span class="project-arrow" aria-hidden="true">↗</span>
                         </a>
                     </li>
-                </ul>
+                </ol>
             </section>
         </main>
 
         <footer class="footer">
-            <div class="footer-intro">
-                <p class="footer-kicker">Wandar.se</p>
-                <p class="footer-title">Elsewhere</p>
-                <p class="footer-copy">Social links.</p>
-            </div>
-            <div class="footer-actions">
-                <nav aria-label="Social links">
-                    <a href="https://github.com/davidwandar" target="_blank" rel="noreferrer">
-                        <span class="footer-link-label">GitHub</span>
-                        <span class="footer-link-value">@davidwandar</span>
-                    </a>
-                    <a href="https://www.linkedin.com/in/david-wandar/" target="_blank" rel="noreferrer">
-                        <span class="footer-link-label">LinkedIn</span>
-                        <span class="footer-link-value">/in/david-wandar/</span>
-                    </a>
-                </nav>
-                <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark mode">
-                    <span class="theme-toggle-label">Mode</span>
-                    <span class="theme-toggle-value">Dark</span>
-                </button>
-            </div>
+            <a href="https://github.com/davidwandar" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/david-wandar/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
         </footer>
     </div>
-    <script>
-        (function () {
-            var storageKey = "wandarse-theme";
-            var root = document.documentElement;
-            var toggle = document.querySelector(".theme-toggle");
-            var toggleValue = document.querySelector(".theme-toggle-value");
-            var mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-
-            function getPreferredTheme() {
-                var storedTheme = window.localStorage.getItem(storageKey);
-
-                if (storedTheme === "light" || storedTheme === "dark") {
-                    return storedTheme;
-                }
-
-                return mediaQuery.matches ? "dark" : "light";
-            }
-
-            function applyTheme(theme) {
-                var nextLabel = theme === "dark" ? "Light" : "Dark";
-                root.setAttribute("data-theme", theme);
-                toggle.setAttribute("aria-pressed", String(theme === "dark"));
-                toggle.setAttribute("aria-label", "Switch to " + nextLabel.toLowerCase() + " mode");
-                toggleValue.textContent = nextLabel;
-            }
-
-            applyTheme(getPreferredTheme());
-
-            toggle.addEventListener("click", function () {
-                var currentTheme = root.getAttribute("data-theme") === "dark" ? "dark" : "light";
-                var nextTheme = currentTheme === "dark" ? "light" : "dark";
-                window.localStorage.setItem(storageKey, nextTheme);
-                applyTheme(nextTheme);
-            });
-        })();
-    </script>
 </body>
-
 </html>

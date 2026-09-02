@@ -3,92 +3,97 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="light" />
+    <meta name="color-scheme" content="dark" />
     <title>Wandar.se</title>
     <meta name="description" content="Products, experiments, and internet side work by David Wandar." />
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <div class="page-shell">
-        <header class="hero">
-            <div class="masthead">
-                <a class="wordmark" href="/" aria-label="Wandar.se home">Wandar.se</a>
-            </div>
-            <div class="hero-copy">
-                <h1>Side projects<br /><em>or whatever.</em></h1>
-                <p class="intro">Products, experiments, and internet side work by David Wandar.</p>
-            </div>
+        <header class="site-header">
+            <a class="wordmark" href="/" aria-label="Wandar.se home">wandar.se</a>
+            <span class="project-count">08 projects</span>
         </header>
 
         <main>
+            <section class="hero">
+                <h1>Side projects<br /><span>or whatever.</span></h1>
+                <p>Products, experiments, and internet side work by David Wandar.</p>
+            </section>
+
             <section class="projects" aria-labelledby="projects-title">
-                <div class="section-heading">
-                    <h2 id="projects-title">Projects</h2>
-                </div>
-                <ol class="project-list">
+                <h2 class="visually-hidden" id="projects-title">Projects</h2>
+                <ol class="project-grid">
                     <li class="project-card">
                         <a class="project-link" href="https://wecode.se" target="_blank" rel="noreferrer">
-                            <span class="project-index" aria-hidden="true">01</span>
-                            <span class="project-title">Wecode.se</span>
-                            <span class="project-description">Me and my three friends' software consultancy.</span>
-                            <span class="project-arrow" aria-hidden="true">↗</span>
+                            <span class="project-meta"><span>01</span><span aria-hidden="true">↗</span></span>
+                            <span class="project-body">
+                                <span class="project-title">Wecode.se</span>
+                                <span class="project-description">Me and my three friends' software consultancy.</span>
+                            </span>
                         </a>
                     </li>
                     <li class="project-card">
                         <a class="project-link" href="https://mightiestgame.com" target="_blank" rel="noreferrer">
-                            <span class="project-index" aria-hidden="true">02</span>
-                            <span class="project-title">MightiestGame.com</span>
-                            <span class="project-description">A fun location-based trading card game built around one-on-one battles.</span>
-                            <span class="project-arrow" aria-hidden="true">↗</span>
+                            <span class="project-meta"><span>02</span><span aria-hidden="true">↗</span></span>
+                            <span class="project-body">
+                                <span class="project-title">MightiestGame.com</span>
+                                <span class="project-description">A fun location-based trading card game built around one-on-one battles.</span>
+                            </span>
                         </a>
                     </li>
                     <li class="project-card">
                         <a class="project-link" href="https://superettanfantasy.se" target="_blank" rel="noreferrer">
-                            <span class="project-index" aria-hidden="true">03</span>
-                            <span class="project-title">Superettanfantasy.se</span>
-                            <span class="project-description">Superettan deserves its own fantasy game, so I built one.</span>
-                            <span class="project-arrow" aria-hidden="true">↗</span>
+                            <span class="project-meta"><span>03</span><span aria-hidden="true">↗</span></span>
+                            <span class="project-body">
+                                <span class="project-title">Superettan<wbr>fantasy.se</span>
+                                <span class="project-description">Superettan deserves its own fantasy game, so I built one.</span>
+                            </span>
                         </a>
                     </li>
                     <li class="project-card">
                         <a class="project-link" href="https://chromewebstore.google.com/detail/allsvenskan-fantasy-tool/fhckfggghdckjamoddjdmcoafhjeoang" target="_blank" rel="noreferrer">
-                            <span class="project-index" aria-hidden="true">04</span>
-                            <span class="project-title">Allsvenskan Fantasy Tool</span>
-                            <span class="project-description">A Chrome extension with better real-time data for your mini leagues.</span>
-                            <span class="project-arrow" aria-hidden="true">↗</span>
+                            <span class="project-meta"><span>04</span><span aria-hidden="true">↗</span></span>
+                            <span class="project-body">
+                                <span class="project-title">Allsvenskan Fantasy Tool</span>
+                                <span class="project-description">A Chrome extension with better real-time data for your mini leagues.</span>
+                            </span>
                         </a>
                     </li>
                     <li class="project-card">
                         <a class="project-link" href="https://linusfilmer.se" target="_blank" rel="noreferrer">
-                            <span class="project-index" aria-hidden="true">05</span>
-                            <span class="project-title">Linusfilmer.se</span>
-                            <span class="project-description">A random movie selector with a niche selection.</span>
-                            <span class="project-arrow" aria-hidden="true">↗</span>
+                            <span class="project-meta"><span>05</span><span aria-hidden="true">↗</span></span>
+                            <span class="project-body">
+                                <span class="project-title">Linusfilmer.se</span>
+                                <span class="project-description">A random movie selector with a niche selection.</span>
+                            </span>
                         </a>
                     </li>
                     <li class="project-card">
                         <a class="project-link" href="https://wandarskalan.se" target="_blank" rel="noreferrer">
-                            <span class="project-index" aria-hidden="true">06</span>
-                            <span class="project-title">wandarskalan.se</span>
-                            <span class="project-description">A new temperature unit for feels-like temperatures.</span>
-                            <span class="project-arrow" aria-hidden="true">↗</span>
+                            <span class="project-meta"><span>06</span><span aria-hidden="true">↗</span></span>
+                            <span class="project-body">
+                                <span class="project-title">wandarskalan.se</span>
+                                <span class="project-description">A new temperature unit for feels-like temperatures.</span>
+                            </span>
                         </a>
                     </li>
                     <li class="project-card">
                         <a class="project-link" href="https://fantasydocs.chat" target="_blank" rel="noreferrer">
-                            <span class="project-index" aria-hidden="true">07</span>
-                            <span class="project-title">fantasydocs.chat</span>
-                            <span class="project-description">An AI-driven chatbot for the rules of Allsvenskan Fantasy.</span>
-                            <span class="project-arrow" aria-hidden="true">↗</span>
+                            <span class="project-meta"><span>07</span><span aria-hidden="true">↗</span></span>
+                            <span class="project-body">
+                                <span class="project-title">fantasydocs.chat</span>
+                                <span class="project-description">An AI-driven chatbot for the rules of Allsvenskan Fantasy.</span>
+                            </span>
                         </a>
                     </li>
                     <li class="project-card">
                         <a class="project-link" href="https://whatsnotmyip.com" target="_blank" rel="noreferrer">
-                            <span class="project-index" aria-hidden="true">08</span>
-                            <span class="project-title">whatsnotmyip.com</span>
-                            <span class="project-description">Tells you your IP address. Spoiler: it's not your IP address. A completely useless and deeply satisfying little tool.</span>
-                            <span class="project-arrow" aria-hidden="true">↗</span>
+                            <span class="project-meta"><span>08</span><span aria-hidden="true">↗</span></span>
+                            <span class="project-body">
+                                <span class="project-title">whatsnotmyip.com</span>
+                                <span class="project-description">Tells you your IP address. Spoiler: it's not your IP address. A completely useless and deeply satisfying little tool.</span>
+                            </span>
                         </a>
                     </li>
                 </ol>
